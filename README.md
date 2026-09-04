@@ -35,3 +35,7 @@ curl http://127.0.0.1:8000/projects
 curl "http://127.0.0.1:8000/projects/cedar%20park?year=2025"
 curl "http://127.0.0.1:8000/estimate?project=cedar%20park&area_sqft=1664.98"
 ```
+
+Walktrhough Video:
+
+https://www.loom.com/share/1dd4fd5628f14492bf563a135e84b533
