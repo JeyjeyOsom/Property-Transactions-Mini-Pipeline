@@ -6,7 +6,7 @@ from datetime import datetime
 from dateutil import parser as date_parser
 import pandas as pd
 
-INPUT_DEFAULT = "data/condo_transactions_raw.csv"
+INPUT_DEFAULT = "data/condo_transactions_raw.xlsx"
 OUTPUT_CLEAN = "data/clean_transactions.csv"
 OUTPUT_SUMMARY = "data/summary.json"
 
@@ -98,7 +98,25 @@ def main(input_path=None):
         print(f"Input file not found: {input_path}")
         sys.exit(1)
 
-    df = pd.read_csv(input_path, dtype=str)
+    # Support Excel input files and fall back to common encodings for CSVs
+    ext = os.path.splitext(input_path)[1].lower()
+    if ext in ('.xls', '.xlsx'):
+        try:
+            # read_excel may infer types differently; prefer string dtype when possible
+            df = pd.read_excel(input_path, dtype=str)
+        except TypeError:
+            # older pandas/readers may not support dtype for read_excel
+            df = pd.read_excel(input_path)
+        except ImportError as e:
+            print("Missing dependency for reading Excel files:", e)
+            print("Install openpyxl: pip install openpyxl")
+            sys.exit(1)
+    else:
+        try:
+            df = pd.read_csv(input_path, dtype=str, encoding='utf-8')
+        except UnicodeDecodeError:
+            # fallback for files with legacy encodings
+            df = pd.read_csv(input_path, dtype=str, encoding='latin1')
     raw_row_count = len(df)
 
     # Deduplicate on transaction_id

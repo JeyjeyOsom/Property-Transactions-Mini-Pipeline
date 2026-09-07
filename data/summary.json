@@ -1,228 +1,250 @@
 {
-  "raw_row_count": 1875,
-  "duplicate_rows_removed": 125,
-  "unique_transactions": 1750,
+  "raw_row_count": 1910,
+  "duplicate_rows_removed": 60,
+  "unique_transactions": 1850,
   "excluded_counts": {
-    "invalid_price": 56,
-    "missing_area": 54,
-    "outlier_psf": 11
+    "invalid_price": 12,
+    "missing_area": 25,
+    "outlier_psf": 18
   },
-  "clean_row_count": 1629,
+  "clean_row_count": 1795,
   "projects": {
-    "Cedar Park": {
-      "district": "D16",
-      "transaction_count": 141,
-      "median_psf": 1664.98,
-      "median_price": 1790000.0,
-      "first_sale": "2021-01-09",
-      "last_sale": "2025-12-03",
-      "median_psf_by_year": {
-        "2021": 1799.11,
-        "2022": 1567.67,
-        "2023": 1722.93,
-        "2024": 1814.8,
-        "2025": 1633.43
-      }
-    },
-    "Emerald Vista": {
-      "district": "D21",
-      "transaction_count": 142,
-      "median_psf": 1706.29,
-      "median_price": 1525000.0,
-      "first_sale": "2021-01-29",
-      "last_sale": "2025-12-09",
-      "median_psf_by_year": {
-        "2021": 1883.05,
-        "2022": 1715.82,
-        "2023": 1667.95,
-        "2024": 1669.01,
-        "2025": 1692.56
-      }
-    },
-    "Harbourfront Suites": {
-      "district": "D04",
-      "transaction_count": 123,
-      "median_psf": 1742.36,
-      "median_price": 1590000.0,
-      "first_sale": "2021-01-15",
-      "last_sale": "2025-12-13",
-      "median_psf_by_year": {
-        "2021": 1822.41,
-        "2022": 1750.35,
-        "2023": 1645.81,
-        "2024": 1745.34,
-        "2025": 1710.08
-      }
-    },
-    "Lakeside Grandeur": {
-      "district": "D22",
-      "transaction_count": 142,
-      "median_psf": 1833.84,
-      "median_price": 1630000.0,
-      "first_sale": "2021-01-14",
-      "last_sale": "2025-12-13",
-      "median_psf_by_year": {
-        "2021": 1658.79,
-        "2022": 1690.03,
-        "2023": 1798.57,
-        "2024": 1899.72,
-        "2025": 1893.98
-      }
-    },
-    "Marina Heights": {
-      "district": "D01",
-      "transaction_count": 125,
-      "median_psf": 1682.97,
-      "median_price": 1600000.0,
-      "first_sale": "2021-01-03",
-      "last_sale": "2025-12-19",
-      "median_psf_by_year": {
-        "2021": 1571.16,
-        "2022": 1788.62,
-        "2023": 1564.96,
-        "2024": 1903.23,
-        "2025": 1896.74
-      }
-    },
-    "Orchard Grand": {
-      "district": "D09",
-      "transaction_count": 133,
-      "median_psf": 1733.6,
-      "median_price": 1840000.0,
-      "first_sale": "2021-01-06",
-      "last_sale": "2025-12-29",
-      "median_psf_by_year": {
-        "2021": 1801.53,
-        "2022": 1831.26,
-        "2023": 1631.55,
-        "2024": 1590.89,
-        "2025": 1843.02
-      }
-    },
-    "Parkview Residences": {
-      "district": "D14",
-      "transaction_count": 118,
-      "median_psf": 1750.8,
-      "median_price": 1815000.0,
-      "first_sale": "2021-01-09",
-      "last_sale": "2025-12-29",
-      "median_psf_by_year": {
-        "2021": 1724.86,
-        "2022": 1720.93,
-        "2023": 2048.06,
-        "2024": 1929.61,
-        "2025": 1720.43
-      }
-    },
-    "Rivervale Gardens": {
-      "district": "D19",
-      "transaction_count": 136,
-      "median_psf": 1789.15,
-      "median_price": 1640000.0,
-      "first_sale": "2021-01-02",
-      "last_sale": "2025-11-22",
-      "median_psf_by_year": {
-        "2021": 1789.12,
-        "2022": 1871.52,
-        "2023": 1707.74,
-        "2024": 1788.87,
-        "2025": 1778.43
-      }
-    },
-    "Skyline Residences": {
-      "district": "D19",
-      "transaction_count": 141,
-      "median_psf": 1805.23,
-      "median_price": 1720000.0,
-      "first_sale": "2021-01-04",
-      "last_sale": "2025-12-02",
-      "median_psf_by_year": {
-        "2021": 1947.6,
-        "2022": 1848.92,
-        "2023": 1535.86,
-        "2024": 1680.56,
-        "2025": 1931.09
-      }
-    },
-    "The Arcadia": {
-      "district": "D10",
-      "transaction_count": 136,
-      "median_psf": 1710.95,
-      "median_price": 1840000.0,
-      "first_sale": "2021-01-07",
-      "last_sale": "2025-12-28",
-      "median_psf_by_year": {
-        "2021": 1603.78,
-        "2022": 1882.22,
-        "2023": 1677.78,
-        "2024": 1834.86,
-        "2025": 1656.99
-      }
-    },
-    "The Botanica": {
+    "Bukit Verde": {
       "district": "D23",
-      "transaction_count": 128,
-      "median_psf": 1769.19,
-      "median_price": 1720000.0,
-      "first_sale": "2021-01-19",
-      "last_sale": "2025-12-24",
+      "transaction_count": 226,
+      "median_psf": 1729.88,
+      "median_price": 1497500.0,
+      "first_sale": "2020-01-02",
+      "last_sale": "2026-12-03",
       "median_psf_by_year": {
-        "2021": 1938.86,
-        "2022": 1744.68,
-        "2023": 1836.36,
-        "2024": 1747.89,
-        "2025": 1646.51
+        "2020": 1370.5,
+        "2021": 1489.63,
+        "2022": 1621.34,
+        "2023": 1740.08,
+        "2024": 1831.33,
+        "2025": 1987.44,
+        "2026": 2086.91
       }
     },
-    "The Seaview Residences": {
-      "district": "D15",
-      "transaction_count": 164,
-      "median_psf": 1820.89,
-      "median_price": 1610000.0,
-      "first_sale": "2021-01-26",
-      "last_sale": "2025-12-03",
+    "Holland Crest": {
+      "district": "D10",
+      "transaction_count": 75,
+      "median_psf": 3187.81,
+      "median_price": 2981000.0,
+      "first_sale": "2020-01-04",
+      "last_sale": "2026-06-01",
       "median_psf_by_year": {
-        "2021": 1843.15,
-        "2022": 1892.47,
-        "2023": 1783.09,
-        "2024": 1748.38,
-        "2025": 1716.87
+        "2020": 2839.25,
+        "2021": 3058.36,
+        "2022": 3116.75,
+        "2023": 3244.35,
+        "2024": 3317.92,
+        "2025": 3479.93,
+        "2026": 3589.31
+      }
+    },
+    "Lakeshore Grand": {
+      "district": "D22",
+      "transaction_count": 203,
+      "median_psf": 1746.31,
+      "median_price": 1428000.0,
+      "first_sale": "2020-01-27",
+      "last_sale": "2026-11-01",
+      "median_psf_by_year": {
+        "2020": 1532.32,
+        "2021": 1560.93,
+        "2022": 1712.13,
+        "2023": 1778.53,
+        "2024": 1890.92,
+        "2025": 2066.12,
+        "2026": 2084.7
+      }
+    },
+    "Marina Vue": {
+      "district": "D01",
+      "transaction_count": 87,
+      "median_psf": 2629.19,
+      "median_price": 2327000.0,
+      "first_sale": "2020-01-17",
+      "last_sale": "2026-09-04",
+      "median_psf_by_year": {
+        "2020": 2321.82,
+        "2021": 2448.92,
+        "2022": 2585.12,
+        "2023": 2582.45,
+        "2024": 2826.97,
+        "2025": 2830.16,
+        "2026": 2843.3
+      }
+    },
+    "Parc Meridian": {
+      "district": "D19",
+      "transaction_count": 188,
+      "median_psf": 1918.88,
+      "median_price": 1690500.0,
+      "first_sale": "2020-01-03",
+      "last_sale": "2026-10-01",
+      "median_psf_by_year": {
+        "2020": 1564.09,
+        "2021": 1708.17,
+        "2022": 1829.53,
+        "2023": 1966.07,
+        "2024": 2107.23,
+        "2025": 2191.16,
+        "2026": 2286.81
+      }
+    },
+    "Pasir View Residences": {
+      "district": "D18",
+      "transaction_count": 176,
+      "median_psf": 1747.35,
+      "median_price": 1498000.0,
+      "first_sale": "2020-01-05",
+      "last_sale": "2026-12-06",
+      "median_psf_by_year": {
+        "2020": 1463.03,
+        "2021": 1545.81,
+        "2022": 1676.63,
+        "2023": 1784.05,
+        "2024": 1838.3,
+        "2025": 2055.1,
+        "2026": 2146.91
+      }
+    },
+    "Queens Parkview": {
+      "district": "D03",
+      "transaction_count": 126,
+      "median_psf": 2409.24,
+      "median_price": 2050500.0,
+      "first_sale": "2020-01-03",
+      "last_sale": "2026-06-25",
+      "median_psf_by_year": {
+        "2020": 2163.58,
+        "2021": 2211.15,
+        "2022": 2230.19,
+        "2023": 2449.49,
+        "2024": 2564.73,
+        "2025": 2662.06,
+        "2026": 2698.02
+      }
+    },
+    "Riverbend Suites": {
+      "district": "D05",
+      "transaction_count": 164,
+      "median_psf": 2192.39,
+      "median_price": 1761000.0,
+      "first_sale": "2020-01-09",
+      "last_sale": "2026-07-13",
+      "median_psf_by_year": {
+        "2020": 1819.58,
+        "2021": 1918.08,
+        "2022": 2062.18,
+        "2023": 2246.58,
+        "2024": 2342.8,
+        "2025": 2513.61,
+        "2026": 2648.73
+      }
+    },
+    "Sengkang Terrace": {
+      "district": "D19",
+      "transaction_count": 190,
+      "median_psf": 1757.39,
+      "median_price": 1616500.0,
+      "first_sale": "2020-01-04",
+      "last_sale": "2026-08-05",
+      "median_psf_by_year": {
+        "2020": 1410.44,
+        "2021": 1525.48,
+        "2022": 1613.37,
+        "2023": 1724.14,
+        "2024": 1872.15,
+        "2025": 1976.23,
+        "2026": 2120.66
+      }
+    },
+    "Tanjong Heights": {
+      "district": "D15",
+      "transaction_count": 136,
+      "median_psf": 2509.87,
+      "median_price": 2062500.0,
+      "first_sale": "2020-01-13",
+      "last_sale": "2026-12-07",
+      "median_psf_by_year": {
+        "2020": 2181.16,
+        "2021": 2263.75,
+        "2022": 2371.73,
+        "2023": 2598.82,
+        "2024": 2731.41,
+        "2025": 2822.37,
+        "2026": 2948.09
+      }
+    },
+    "The Orchid Residences": {
+      "district": "D10",
+      "transaction_count": 117,
+      "median_psf": 3001.95,
+      "median_price": 2460000.0,
+      "first_sale": "2020-01-19",
+      "last_sale": "2026-12-01",
+      "median_psf_by_year": {
+        "2020": 2677.75,
+        "2021": 2816.0,
+        "2022": 2975.64,
+        "2023": 3004.55,
+        "2024": 3042.11,
+        "2025": 3294.64,
+        "2026": 3451.43
+      }
+    },
+    "Westwood Gardens": {
+      "district": "D22",
+      "transaction_count": 107,
+      "median_psf": 1553.78,
+      "median_price": 1327000.0,
+      "first_sale": "2020-01-13",
+      "last_sale": "2026-07-16",
+      "median_psf_by_year": {
+        "2020": 1315.43,
+        "2021": 1362.97,
+        "2022": 1493.2,
+        "2023": 1561.07,
+        "2024": 1681.57,
+        "2025": 1686.25,
+        "2026": 1778.16
       }
     }
   },
   "district_median_psf": {
-    "D01": 1682.97,
-    "D04": 1742.36,
-    "D09": 1733.6,
-    "D10": 1710.95,
-    "D14": 1750.8,
-    "D15": 1820.89,
-    "D16": 1664.98,
-    "D19": 1789.32,
-    "D21": 1706.29,
-    "D22": 1833.84,
-    "D23": 1769.19
+    "D01": 2629.19,
+    "D03": 2409.24,
+    "D05": 2192.39,
+    "D10": 3087.64,
+    "D15": 2509.87,
+    "D18": 1747.35,
+    "D19": 1835.54,
+    "D22": 1682.63,
+    "D23": 1729.88
   },
   "top5_projects_by_median_psf_2025": [
     [
-      "Skyline Residences",
-      1931.09
+      "Holland Crest",
+      3479.93
     ],
     [
-      "Marina Heights",
-      1896.74
+      "The Orchid Residences",
+      3294.64
     ],
     [
-      "Lakeside Grandeur",
-      1893.98
+      "Marina Vue",
+      2830.16
     ],
     [
-      "Orchard Grand",
-      1843.02
+      "Tanjong Heights",
+      2822.37
     ],
     [
-      "Rivervale Gardens",
-      1778.43
+      "Queens Parkview",
+      2662.06
     ]
   ]
 }
